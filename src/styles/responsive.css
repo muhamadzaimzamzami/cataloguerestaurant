@@ -1,0 +1,135 @@
+@media only screen and (max-width: 340px){
+    .jumbotron{
+        height: 200px;
+        font-size: 10px;
+        background: url('./images/hero-600.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron h1{
+        margin-top: 10px;
+    }
+
+    #catalouge {
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-text{
+        font-size: 30px;
+    }
+
+    .menu-list{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotron{
+        height: 200px;
+        font-size: 10px;
+        background: url('./images/hero-600.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+    .jumbotron h1{
+        margin-top: 10px;
+    }
+
+    .btn-burger{
+        display: block;
+        background-color: transparent;
+        border: 1px solid transparent;
+        text-align: center;
+        width: 45px;
+        height: 45px;
+        
+    }
+
+    .btn-burger span{
+        text-align: center;
+        color: white;
+        padding-right: 10px;
+    }
+
+    .burger{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .logo-text{
+        font-size: 35px;
+    }
+
+    /* nav{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        height: 175px;
+        flex-wrap: wrap;
+        color: white;
+        background-color: transparent;
+    } */
+    .menu{
+        display: none;
+    }
+
+    .menu-block{
+        display: flex;
+    }
+    .content-title {
+        margin-bottom: 16px;
+    }
+    
+    #catalouge {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .content-title {
+        margin-bottom: 16px;
+    }
+    
+    #catalouge {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .content-title {
+        margin-bottom: 16px;
+    }
+    
+    #catalouge {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #catalogue {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    main {
+        max-width: 1200px;
+    }
+}
